@@ -1,0 +1,4 @@
+# NULL값을 치환하기 위해서 MYSQL에서는 IFNULL(컬럼명, 대체값) 함수를 이용한다.
+
+SELECT ANIMAL_TYPE, IFNULL(NAME,'No name') AS NAME, SEX_UPON_INTAKE 
+FROM ANIMAL_INS
